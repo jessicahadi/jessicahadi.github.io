@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.link:hover{
+  color: rgb(238, 131, 238);
+}
+
+.topnavbar {
+  overflow: hidden;
+  background-color: black;
+  padding: 35px;
+}
+
+img{
+  transition: all 0.15s;
+}
+
+img:hover{
+  transform: rotate(-15deg) scale(1.1)
+}
+.container{
+  margin-left: 200px;
+  background-color: rgb(160, 147, 207);
+  margin-right: 200px;
+  margin-top: 100px;
+  height: 400px;
+}
+
+table{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 550;
+  margin-left: 500px;
+  font-size: 30px;
+  margin-top: -300px;
+}
